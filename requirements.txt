@@ -1,0 +1,57 @@
+# Core Dependencies
+torch==2.0.0
+torchvision==0.15.0
+torchaudio==2.0.0
+numpy==1.24.0
+scipy==1.10.0
+scikit-image==0.20.0
+opencv-python==4.7.0
+Pillow==9.5.0
+
+# AI/ML Models
+tensorflow==2.12.0
+transformers==4.28.0
+diffusers==0.17.0
+
+# Face Processing
+dlib==19.24.2
+face-recognition==1.3.5
+mediapipe==0.8.11
+retinaface==0.0.13
+
+# Audio Processing
+librosa==0.10.0
+scipy==1.10.0
+pydub==0.25.1
+soundfile==0.12.1
+speechrecognition==3.10.0
+
+# Video Processing
+ffmpeg-python==0.2.1
+imageio==2.25.1
+imageio-ffmpeg==0.4.9
+moviepy==1.0.3
+
+# Web & API
+requests==2.31.0
+aiohttp==3.8.4
+flask==2.3.2
+flask-cors==4.0.0
+python-dotenv==1.0.0
+
+# Utilities
+tqdm==4.65.0
+pyyaml==6.0
+pandas==2.0.0
+matplotlib==3.7.1
+tensorboard==2.12.0
+
+# GPU Acceleration (optional)
+cupy==12.0.0
+pycuda==2022.2.2
+
+# Development
+pytest==7.3.1
+black==23.3.0
+flake8==6.0.0
+pylint==2.17.4

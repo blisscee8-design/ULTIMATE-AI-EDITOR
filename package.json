@@ -1,0 +1,43 @@
+{
+  "name": "ultimate-deepfake-editor",
+  "version": "3.0.0",
+  "description": "The Most Advanced Web-Based Deepfake & Face Manipulation Platform",
+  "main": "mega-server.js",
+  "scripts": {
+    "start": "node mega-server.js",
+    "dev": "nodemon mega-server.js",
+    "test": "echo \"Testing...\" && exit 0",
+    "create-zip": "node create-package.js"
+  },
+  "keywords": [
+    "deepfake",
+    "face-swap",
+    "voice-clone",
+    "lip-sync",
+    "video-editing",
+    "ai",
+    "machine-learning"
+  ],
+  "author": "Ultimate Deep Editor Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "axios": "^1.4.0",
+    "multer": "^1.4.5-lts.1",
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "sharp": "^0.32.0",
+    "replicate": "^0.24.0",
+    "uuid": "^9.0.0",
+    "archiver": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
