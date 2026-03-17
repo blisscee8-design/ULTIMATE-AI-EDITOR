@@ -1,0 +1,26 @@
+# Render.yaml
+
+# This configuration is for deploying ULTIMATE-AI-EDITOR with Node.js backend and Python services.
+
+services:
+  - type: web
+    name: ultimate-ai-editor-backend
+    env: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    publish: build
+    envVars:
+      NODE_ENV: production
+      # Add any other environment variables needed
+
+  - type: web
+    name: ultimate-ai-editor-python-service
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    publish: .
+    envVars:
+      FLASK_ENV: production
+      # Add any other environment variables needed
